@@ -1,0 +1,43 @@
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+  }
+  /* Centered text */
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 70%;
+    text-align: right;
+    transform: translate(-50%, -50%);
+  }
+  .header-title {
+    font-size: x-large;
+    font-family: sans-serif;
+
+  }
+  .header-details {
+    font-size:medium;
+    font-weight: 500;
+    line-height: 1.6;
+    font-family: sans-serif;
+  }
+  .btn-contact {
+   padding-left: 30px;
+   padding-right: 30px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   background-color:darkorange;
+   margin: 4px;
+   border-radius: 4px;
+   display: inline-block;
+   border: none;
+   font-size:medium;
+   font-weight: 600;
+   font-family: sans-serif;
+   color: white;
+  }
+  
+  
+  
