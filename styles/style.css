@@ -99,16 +99,40 @@
     color:darkgrey;
   }
   .liniyer-image{
-    margin-top: 40px;
-    margin-left: 60px;
-    height: 200px;
-    background-image:linear-gradient(to right,rgba(255,0,0,0));
+   margin-top: 50px;
+   margin-left: 80px;
+   margin-bottom: 50px;
   }
   #trans-image{
+    background-image:
+    linear-gradient(to left, rgba(245, 246, 252, 0.52), rgba(242, 62, 128, 0.872)),
+    url('images/watch.png');
+    width:70%;
     height: 200px;
-    background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(0, 242, 255, 0.618));
-    margin-left: 100px;
-    margin-right: 100px;
+    background-size: cover;
+    color: rgb(205, 47, 47);
+    margin-left:140px;
+    margin-right: 50px;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  .image-text{
+    font-family: sans-serif;
+    color: white;
+    font-size: 40px;
+    padding-left: 30px;
+
+  }
+  #btn-call{
+    margin-left: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: medium;
+    font-weight: bold;
   }
   
   
